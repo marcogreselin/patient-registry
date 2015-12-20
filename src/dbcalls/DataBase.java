@@ -25,7 +25,6 @@ public class DataBase {
 	public  String Login(String un){
 	    Statement statement = null;
 	    try {
-	    	System.out.println("jdbc:sqlite"+absPath+File.pathSeparator+"PatientRegistry.sqlite");
 	      Class.forName("org.sqlite.JDBC");
 	      connection = DriverManager.getConnection("jdbc:sqlite"+absPath+File.pathSeparator+"PatientRegistry.sqlite");
 	      connection.setAutoCommit(false);
