@@ -16,7 +16,6 @@ If you have any issues compiling, clean the project and make sure `Project -> Bu
 - Source and compiled code: see dir PatientRegistry (this is the Eclipse workspace).
 - JavaDoc: see PatientRegistry/Sanus/doc
 - Video: https://youtu.be/bodC7oZ2Cnk
-- JAR: check the JAR folder. Run Sanus.jar in that folder. It needs to read and write in the database and the img folder so I cannot put it in a different location.
 
 ## Features Implemented
 - All exceptions handled.
@@ -51,7 +50,7 @@ If you have any issues compiling, clean the project and make sure `Project -> Bu
   * Add an appointment. You can only select a patient that exists from a drop down menu.
   * After every edit the panels are updated. Also the JTable in the HomePage frame is updated.
   * Search button allows to search for all fields in the patients table. This is achieved through a UNION query. The JTable will update with the results.
-- Import and Export pane (optional)
+- Import and Export pane
   * Please use the file import.csv which has the right template for the import. One dialog box will appear confirming you added every patient. You can only import *.csv files.
   * For the export, select the destination folder (do not double click). It will create a results.csv file.
 - Logout button at the top right.
