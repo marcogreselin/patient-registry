@@ -14,7 +14,7 @@ If you have any issues compiling, clean the project and make sure `Project -> Bu
 
 ## Content:
 - Source and compiled code: see dir PatientRegistry (this is the Eclipse workspace).
-- JavaDoc: see PatientRegistry/Sanus/doc
+- JavaDoc: see doc
 - Video: https://youtu.be/bodC7oZ2Cnk
 
 ## Features Implemented
