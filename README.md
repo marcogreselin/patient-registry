@@ -7,12 +7,12 @@ A simple patients management system using Swing.
  
 If you have any issues compiling, clean the project and make sure `Project -> Build Automatically` is ticked.
 
-## Important Notes:
+## Important Notes
 - User name: marco // Password: pass
 - The file import.csv has the right template for the import.
 - Tested on Mac OS X and Linux (Ubuntu).
 
-## Content:
+## Content
 - Source and compiled code: see dir PatientRegistry (this is the Eclipse workspace).
 - JavaDoc: see doc
 - Video: https://youtu.be/bodC7oZ2Cnk
